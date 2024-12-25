@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import logo from "/tanu.png";
 import { NavLink } from "react-router-dom";
 import { LuBrainCircuit } from "react-icons/lu";
-import { FaHome, FaProjectDiagram, FaTools, FaFileAlt, FaEnvelope, FaBars, FaTimes } from "react-icons/fa";
+import { FaHome, FaProjectDiagram, FaTools, FaEnvelope, FaBars, FaTimes } from "react-icons/fa";
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -72,14 +72,7 @@ const NavBar = () => {
               <FaProjectDiagram className="mr-2" size={20} /> Projects
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/resume"
-              className="flex items-center hover:text-yellow-400 transition duration-200"
-            >
-              <FaFileAlt className="mr-2" size={20} /> Resume
-            </NavLink>
-          </li>
+
           <li>
             <NavLink
               to="/contact"
@@ -135,15 +128,7 @@ const NavBar = () => {
               <FaProjectDiagram className="mr-2" size={20} /> Projects
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/resume"
-              className="flex items-center hover:text-yellow-400 transition duration-200"
-              onClick={closeMenu}
-            >
-              <FaFileAlt className="mr-2" size={20} /> Resume
-            </NavLink>
-          </li>
+         
           <li>
             <NavLink
               to="/contact"

@@ -28,6 +28,7 @@ const Skillset = () => {
                 <div className="mb-12">
                     <Findme />
                 </div>
+                
 
             </div>
         </section>

@@ -4,6 +4,7 @@ import Particle from '../components/Particle';
 import About from '../components/Home/About';
 import Type from '../components/Home/Type';
 import Study from '../components/Home/Study';
+import Resume from '../components/Resume';
 
 const Home = () => {
   return (
@@ -48,6 +49,7 @@ const Home = () => {
 
       <About />
       <Study />
+      <Resume/>
     </section>
   );
 };

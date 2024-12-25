@@ -8,7 +8,6 @@ import {
 import Home from './pages/Home';
 import Skill from './pages/Skillset';
 import Project from './pages/Projects';
-// import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 import Navbar from "./components/Navbar";
@@ -18,7 +17,6 @@ import ScrollToTop from "./components/ScrollToTop";
 
 import "./App.css";  // Keep custom styles as needed.
 import "./style.css"; // Keep custom styles as needed.
-import Resume from "./pages/Resume";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -51,7 +49,6 @@ function App() {
           <Route path="/project" element={<Project />} />
           {/* <Route path="/resume" element={<Resume />} /> */}
           <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} /> {/* Redirects to homepage for any unmatched routes */}
           
         </Routes>
